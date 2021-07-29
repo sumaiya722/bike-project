@@ -1,0 +1,9 @@
+.bike{
+    filter: grayscale(100%);
+}
+.fill{
+    color: orange;
+}
+.empty{
+    color: orange;
+}
