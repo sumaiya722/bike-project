@@ -18,7 +18,7 @@
 <body>
     <header>
         <section>
-            <div class="row bg-success bg-gradient d-flex align-items-center justify-content-center ">
+            <div class="row first-part bg-gradient d-flex align-items-center justify-content-center ">
 
                 <div class="col-lg-7 p-4">
                     <p class="text-light">Computer-controlled digital transistorized with electronic advance</p>
@@ -28,22 +28,31 @@
                     <p class="text-light">Amet minim mollit non deserunt ullamco est sit aliqua
                         dolor do amet sint. Velit officia consequat duis enim velit
                         mollit. Exercitation veniam consequat sunt nostrud amet</p>
-                    <div class="container py-5">
-                        <button class="btn btn-warning text-white" data-toggle="modal"
-                            data-target="#my-first-modal">Purchase</button>
-                    </div>
-                    <!-- our first modal  -->
-                    <div class="modal" id="my-first-modal">
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning text-white" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h4 class="modal-title">Our first modal</h4>
-                                    <button type="button" class="close" data-dismiss="modal">
-                                        <span> &times; </span>
-                                    </button>
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-
+                                    <p>This is my first modal.Firstly I find it's so tricky but now it's work finally
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +71,7 @@
         <section class="container my-5">
             <div class="text-center">
                 <h1 class="fw-bold">Fetured Bikes 2021</h1>
-                <h5 class="text-warning">Best bike collection</h5>
+                <h5 class="my-color">Best bike collection</h5>
             </div>
             <div class="container">
                 <div class="row">
@@ -81,7 +90,7 @@
         <!-- Happy Clients  -->
         <section class="container my-5">
             <div class="text-center">
-                <h1 class="fw-bold">Happy <span class="text-warning">Clients says</span></h1>
+                <h1 class="fw-bold">Happy <span class="my-color">Clients says</span></h1>
             </div>
             <!-- Clients picture -->
             <div class="row row-cols-1 row-cols-md-3 g-4 ">
@@ -156,7 +165,7 @@
         </section>
         <!-- Questions part -->
         <section class="container my-5">
-            <h1 class="fw-bold text-center">Frequently Asked <span class="text-warning">Questions</span> </h1>
+            <h1 class="fw-bold text-center">Frequently Asked <span class="my-color">Questions</span> </h1>
             <div class="d-flex">
                 <div class="col-6">
                     <img class="mx-5" src="images/faq.png" alt="" width="60%">
@@ -167,20 +176,18 @@
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Accordion Item #1
+                                    What are the most important things I should
+
+                                    know about riding a bike?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until
-                                    the collapse plugin adds the appropriate classes that we use to style each element.
-                                    These classes control the overall appearance, as well as the showing and hiding via
-                                    CSS
-                                    transitions. You can modify any of this with custom CSS or overriding our default
-                                    variables. It's also worth noting that just about any HTML can go within the
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Safety First! Always obey the rules of the road. Obey all traffic
+                                    signals, signs, and laws. Get in the mindset of “driving” your
+                                    bike—not just “riding” your bike. This will help you be a more
+                                    focused and legally compliant bike rider.
                                 </div>
                             </div>
                         </div>
@@ -189,7 +196,9 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
+                                    How can I tell if my helmet is old and I need a
+
+                                    new one?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -209,7 +218,7 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
+                                    My bike has been in storage is it safe to ride?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -229,7 +238,7 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Accordion Item #3
+                                    What rules should I follow when riding my bike?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
